@@ -5,3 +5,5 @@ To get some more detail about what they are used for, read my thesis: "New model
 
 3D_dominoes.py takes lists of tiles (themselves lists of length 4) and configures them into 3D-dominoes.
 It outputs the list of cubes, as well as the relevant short exact sequence of Evans as MAGMA-readable code.
+
+3D_homology.py takes tiles and 3D-dominoes (constructed from 3D_dominoes.py) and outputs the boundary matrices used in computation of cellular homology.
