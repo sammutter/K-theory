@@ -7,3 +7,8 @@ To get some more detail about what they are used for, read my thesis: "New model
 It outputs the list of cubes, as well as the relevant short exact sequence of Evans as MAGMA-readable code.
 
 3D_homology.py takes tiles and 3D-dominoes (constructed from 3D_dominoes.py) and outputs the boundary matrices used in computation of cellular homology.
+
+Files bdry_matrices_"".txt are some examples of the output of 3D_homology.py.
+201xF2 is the result of the domino group 2.01xF2, where 2.01 is from Kimberley--Robertson and F2 is the free group of rank 2.
+axbxc is the result of the product of three free groups of ranks a,b,c.
+q_[a,b,c] is the result of 3D_dominoes.py with prime power q and labels a,b,c, obtained from Rungtanapirom--Stix--Vdovina algorithm.
